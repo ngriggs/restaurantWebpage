@@ -1,0 +1,25 @@
+{
+  "name": "restaurantwebpage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --watch"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ngriggs/restaurantWebpage.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ngriggs/restaurantWebpage/issues"
+  },
+  "homepage": "https://github.com/ngriggs/restaurantWebpage#readme",
+  "devDependencies": {
+    "webpack": "^5.38.1",
+    "webpack-cli": "^4.7.0"
+  }
+}
