@@ -5,10 +5,11 @@
     position: fixed;
     width: 100%;
     font-family: 'Inter', sans-serif;
+    top: 0px;
   }
   .headerRight {
     float: right;
-    margin-right: 1em;
+    margin-right: 2em;
   }
 
   .header div {
