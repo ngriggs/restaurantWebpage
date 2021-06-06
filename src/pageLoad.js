@@ -1,20 +1,20 @@
 const createHeader = () => {
-    const header = document.createElement('div');
+    const header = document.createElement('header');
     header.setAttribute('class', 'header');
-    const logo = document.createElement('a');
+    const logo = document.createElement('div');
     logo.innerText = 'Company Logo'
-    logo.setAttribute('href', '#');
-    const headerRight = document.createElement('div');
+    logo.setAttribute('id', 'mainHome')
+    const headerRight = document.createElement('nav');
     headerRight.setAttribute('class', 'headerRight');
-    const menu = document.createElement('a');
+    const menu = document.createElement('div');
     menu.innerText = 'Menu';
-    menu.setAttribute('href', '#');
-    const about = document.createElement('a');
+    menu.setAttribute('id', 'mainMenu');
+    const about = document.createElement('div');
     about.innerText = 'About';
-    about.setAttribute('href', '#');
-    const contact = document.createElement('a');
+    about.setAttribute('id', 'mainAbout');
+    const contact = document.createElement('div');
     contact.innerText = 'Contact Us';
-    contact.setAttribute('href', '#')
+    contact.setAttribute('id', 'mainContact');
     header.appendChild(logo);
     header.appendChild(headerRight);
     headerRight.appendChild(menu)

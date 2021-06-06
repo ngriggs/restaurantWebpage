@@ -1,9 +1,9 @@
-const createMenu = () => {
+const createAbout = () => {
     const element = document.createElement('div')
     element.setAttribute('class', 'subContent')
     const headerDiv = document.createElement('div')
     headerDiv.setAttribute('class', 'textHeader')
-    headerDiv.innerHTML = '<h1>This is my Menu</h1>';
+    headerDiv.innerHTML = '<h1>This is who we are and what we do</h1>';
 
     const textDiv = document.createElement('div')
     textDiv.setAttribute('class', 'textDiv')
@@ -20,5 +20,4 @@ const createMenu = () => {
     headerDiv.appendChild(textDiv)
     return element
 }
-
-export default createMenu
+export default createAbout;

@@ -1,6 +1,6 @@
 const createContact = () => {
     const element = document.createElement('div')
-    element.setAttribute('class', 'content')
+    element.setAttribute('class', 'subContent')
     const headerDiv = document.createElement('div')
     headerDiv.setAttribute('class', 'textHeader')
     headerDiv.innerHTML = '<h1>This is how you contact us</h1>';
