@@ -4,9 +4,11 @@
     padding: 20px 10px;
     position: fixed;
     width: 100%;
+    font-family: 'Inter', sans-serif;
   }
-  .header-right {
+  .headerRight {
     float: right;
+    margin-right: 1em;
   }
 
   .header a {
@@ -18,12 +20,6 @@
     font-size: 18px;
     line-height: 25px;
     border-radius: 4px;
-  }
-
-
-  .header a.logo {
-    font-size: 25px;
-    font-weight: bold;
   }
 
   .header a:hover {
@@ -54,7 +50,22 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
-
-    height: 100rem;
+    height: 60rem;
     margin: 0;
+  }
+
+  .textHeader {
+      text-align: center;
+      font-family: 'Inter', sans-serif;
+      background: transparent;
+  }
+
+  .textDiv {
+    width: 60%;
+    margin: auto;
+    font-family: 'Inter', sans-serif;
+    background: transparent;
+  }
+  .content {
+      background: transparent;
   }

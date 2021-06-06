@@ -1,30 +1,10 @@
-const createHeader = () => {
-    const header = document.createElement('div');
-    header.setAttribute('class', 'header');
-    const logo = document.createElement('a');
-    logo.innerText = 'CompanyLogo'
-    logo.setAttribute('href', '#');
-    const headerRight = document.createElement('div');
-    headerRight.setAttribute('class', 'headerRight');
-    const about = document.createElement('a');
-    about.innerText = 'About';
-    about.setAttribute('href', '#');
-    const contact = document.createElement('a');
-    contact.innerText = 'Contact Us';
-    contact.setAttribute('href', '#')
-    header.appendChild(logo);
-    header.appendChild(headerRight);
-    headerRight.appendChild(about);
-    headerRight.appendChild(contact);
-    return header;
-  }
-const backgroundImage = () => {
-    const element = document.createElement('div');
-    element.setAttribute('class', 'backgroundImage');
-    return element;
-}
+import {createHeader, backgroundImage} from './pageLoad'
+import createContent from  './home'
+import createMenu from './menu'
+import createContact from './contact'
 
-
-
-  document.body.appendChild(createHeader())
-  document.body.appendChild(backgroundImage())
+document.body.appendChild(createHeader())
+document.body.appendChild(backgroundImage())
+document.body.appendChild(createContent())
+document.body.appendChild(createMenu())
+document.body.appendChild(createContact())
