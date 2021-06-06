@@ -1,0 +1,71 @@
+.header {
+    overflow: hidden;
+    background-color: #f1f1f1;
+    padding: 20px 10px;
+    position: fixed;
+    width: 100%;
+    font-family: 'Inter', sans-serif;
+  }
+  .headerRight {
+    float: right;
+    margin-right: 1em;
+  }
+
+  .header div {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+  }
+
+  .header div:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  .header div.active {
+    background-color: dodgerblue;
+    color: white;
+  }
+
+
+  /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
+@media screen and (max-width: 500px) {
+    .header div {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    .header-right {
+      float: none;
+    }
+  }
+
+  .backgroundImage {
+    background-image: url('../src/assets/background1.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    height: 60rem;
+    margin: 0;
+  }
+
+  .textHeader {
+      text-align: center;
+      font-family: 'Inter', sans-serif;
+      background: transparent;
+  }
+
+  .textDiv {
+    width: 60%;
+    margin: auto;
+    font-family: 'Inter', sans-serif;
+    background: transparent;
+  }
+  .content {
+      background: transparent;
+  }
