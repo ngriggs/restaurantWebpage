@@ -67,6 +67,9 @@
     font-family: 'Inter', sans-serif;
     background: transparent;
   }
+  .textDiv li {
+    margin: 1em;
+  }
   .content {
       background: transparent;
   }
